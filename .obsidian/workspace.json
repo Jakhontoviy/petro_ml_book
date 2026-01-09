@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "583bca80030d530b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3018ae7941c50965",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52fd7c1798dbde65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_introduction/03_структура_и_методология.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_структура_и_методология"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4cc53df5c9d562ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbe24c3ac44e7de6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1544ed7ea0642549",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2b85179c19183efd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ebcf9eb1a176c5b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e8c385817a82886",
+    "type": "split",
+    "children": [
+      {
+        "id": "702d39c7a85a2a41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c8c0aaa297e4dca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_introduction/03_структура_и_методология.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 03_структура_и_методология"
+            }
+          },
+          {
+            "id": "099d5e692fcfa765",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_introduction/03_структура_и_методология.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 03_структура_и_методология"
+            }
+          },
+          {
+            "id": "b773f5cc31660051",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "69333eb6729f4ecb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bc0afe240f740bdd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_introduction/03_структура_и_методология.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 03_структура_и_методология"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 533.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "52fd7c1798dbde65",
+  "lastOpenFiles": [
+    "DEPLOY.md",
+    "00_introduction/02_обзор_современного_состояния.md",
+    "add_front_matter.py",
+    "00_introduction/01_цель_и_задачи_книги.md",
+    "index.md",
+    "Gemfile",
+    "index.html",
+    "assets/css/style.css",
+    "assets/css",
+    "assets",
+    "_layouts/default.html",
+    "_layouts",
+    "_config.yml",
+    "13_conclusion/04_прогноз_развития.md",
+    "13_conclusion/03_направления_исследований.md",
+    "13_conclusion/02_рекомендации_по_внедрению.md",
+    "13_conclusion/01_основные_достижения.md",
+    "12_chapter_12/05_временные_преимущества.md",
+    "12_chapter_12/04_анализ_рисков.md",
+    "12_chapter_12/03_экономическая_эффективность.md",
+    "12_chapter_12/02_сравнение_с_традиционными_методами.md",
+    "12_chapter_12/01_метрики_оценки_качества.md",
+    "11_chapter_11/05_оптимизация_доразведки.md",
+    "11_chapter_11/04_поиск_пропущенных_залежей.md",
+    "11_chapter_11/03_ии_в_карбонатных_коллекторах.md",
+    "11_chapter_11/02_автоматизация_западная_сибирь.md",
+    "11_chapter_11/01_цифровизация_процессов.md",
+    "10_chapter_10/05_оптимизация_производительности.md",
+    "10_chapter_10/04_потоковый_анализ.md",
+    "10_chapter_10/03_параллельные_вычисления.md",
+    "10_chapter_10/02_хранение_и_управление_данными.md",
+    "10_chapter_10/01_специфика_big_data.md",
+    "09_chapter_09/05_разработка_алгоритмов.md",
+    "09_chapter_09/04_интеграция_с_гис_сапр.md",
+    "09_chapter_09/03_облачные_вычисления.md",
+    "13_conclusion"
+  ]
+}

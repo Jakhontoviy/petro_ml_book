@@ -1,0 +1,50 @@
+# Jekyll конфигурация для GitHub Pages
+title: "Машинное обучение в геофизике и петрофизике"
+description: "Практическое руководство по применению искусственного интеллекта в геонауках"
+author: "Автор книги"
+url: "" # будет заполнено автоматически GitHub Pages
+baseurl: "" # для подпапок, оставить пустым для корня
+
+# Настройки Jekyll
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Настройки для GitHub Pages
+github: [metadata]
+
+# Настройки kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Настройки для сборки
+sass:
+  style: compressed
+
+# Исключения
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+
+# Навигация
+navigation:
+  - title: Введение
+    url: /00_introduction/
+    children:
+      - title: Цель и задачи книги
+        url: /00_introduction/01_цель_и_задачи_книги.html
+      - title: Обзор современного состояния
+        url: /00_introduction/02_обзор_современного_состояния.html
+      - title: Структура и методология
+        url: /00_introduction/03_структура_и_методология.html
+

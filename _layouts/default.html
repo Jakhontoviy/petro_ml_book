@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1 class="site-title">
+                <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            </h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Содержание</a></li>
+                    <li><a href="{{ '/00_introduction/' | relative_url }}">Введение</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content-wrapper">
+            <aside class="sidebar">
+                <nav class="chapter-nav">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="{{ '/' | relative_url }}">Содержание</a></li>
+                        <li>
+                            <strong>Введение</strong>
+                            <ul>
+                                <li><a href="{{ '/00_introduction/01_цель_и_задачи_книги.html' | relative_url }}">Цель и задачи</a></li>
+                                <li><a href="{{ '/00_introduction/02_обзор_современного_состояния.html' | relative_url }}">Обзор состояния</a></li>
+                                <li><a href="{{ '/00_introduction/03_структура_и_методология.html' | relative_url }}">Структура</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Часть I. Теоретические основы</strong>
+                            <ul>
+                                <li><a href="{{ '/01_chapter_01/' | relative_url }}">Глава 1. Основы ИИ</a></li>
+                                <li><a href="{{ '/02_chapter_02/' | relative_url }}">Глава 2. Специфика данных</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Часть II. Петрофизические исследования</strong>
+                            <ul>
+                                <li><a href="{{ '/03_chapter_03/' | relative_url }}">Глава 3. Интерпретация ГИС</a></li>
+                                <li><a href="{{ '/04_chapter_04/' | relative_url }}">Глава 4. Анализ керна</a></li>
+                                <li><a href="{{ '/05_chapter_05/' | relative_url }}">Глава 5. Моделирование</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Часть III. Геологическое моделирование</strong>
+                            <ul>
+                                <li><a href="{{ '/06_chapter_06/' | relative_url }}">Глава 6. Сейсморазведка</a></li>
+                                <li><a href="{{ '/07_chapter_07/' | relative_url }}">Глава 7. Картирование</a></li>
+                                <li><a href="{{ '/08_chapter_08/' | relative_url }}">Глава 8. Поиск месторождений</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Часть IV. Инструменты</strong>
+                            <ul>
+                                <li><a href="{{ '/09_chapter_09/' | relative_url }}">Глава 9. Программные решения</a></li>
+                                <li><a href="{{ '/10_chapter_10/' | relative_url }}">Глава 10. Big Data</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Часть V. Практика</strong>
+                            <ul>
+                                <li><a href="{{ '/11_chapter_11/' | relative_url }}">Глава 11. Кейсы</a></li>
+                                <li><a href="{{ '/12_chapter_12/' | relative_url }}">Глава 12. Эффективность</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{ '/13_conclusion/' | relative_url }}">Заключение</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="main-content">
+                <article>
+                    {{ content }}
+                </article>
+
+                <nav class="page-nav">
+                    {% if page.previous %}
+                        <a href="{{ page.previous.url | relative_url }}" class="prev">← {{ page.previous.title }}</a>
+                    {% endif %}
+                    {% if page.next %}
+                        <a href="{{ page.next.url | relative_url }}" class="next">{{ page.next.title }} →</a>
+                    {% endif %}
+                </nav>
+            </main>
+        </div>
+
+        <footer class="site-footer">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+        </footer>
+    </div>
+</body>
+</html>
+
