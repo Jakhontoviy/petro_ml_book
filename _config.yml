@@ -2,8 +2,8 @@
 title: "Машинное обучение в геофизике и петрофизике"
 description: "Практическое руководство по применению искусственного интеллекта в геонауках"
 author: "Автор книги"
-url: "" # будет заполнено автоматически GitHub Pages
-baseurl: "" # для подпапок, оставить пустым для корня
+url: "https://jakhontoviy.github.io" # базовый URL GitHub Pages
+baseurl: "/petro-ml-book" # название репозитория
 
 # Настройки Jekyll
 markdown: kramdown

@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+"""
+Скрипт для удаления baseurl из permalinks (Jekyll добавляет его автоматически)
+"""
+import os
+import re
+from pathlib import Path
+
+BASEURL = "/petro-ml-book"
+
+def fix_permalink_in_file(file_path):
+    """Убирает baseurl из permalink"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        if not content.startswith('---'):
+            return False
+        
+        # Извлекаем front matter
+        front_matter_end = content.find('---', 3)
+        if front_matter_end == -1:
+            return False
+        
+        front_matter = content[3:front_matter_end].strip()
+        body = content[front_matter_end + 3:].lstrip()
+        
+        # Получаем текущий permalink
+        permalink_match = re.search(r'permalink:\s*(.+)', front_matter)
+        if not permalink_match:
+            return False
+        
+        current_permalink = permalink_match.group(1).strip()
+        
+        # Если permalink содержит baseurl, убираем его
+        if BASEURL in current_permalink:
+            # Убираем baseurl
+            new_permalink = current_permalink.replace(BASEURL, '').strip()
+            # Убираем двойные слэши
+            new_permalink = re.sub(r'/+', '/', new_permalink)
+            # Убираем ведущий слэш если baseurl был в начале
+            if not new_permalink.startswith('/'):
+                new_permalink = '/' + new_permalink
+            
+            # Заменяем в front matter
+            new_front_matter = re.sub(
+                r'permalink:\s*.+',
+                f'permalink: {new_permalink}',
+                front_matter
+            )
+            
+            # Собираем обратно
+            new_content = f"---\n{new_front_matter}\n---\n{body}"
+            
+            # Сохраняем
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(new_content)
+            
+            print(f"[OK] Fixed permalink in {file_path}: {current_permalink} -> {new_permalink}")
+            return True
+        else:
+            return False
+        
+    except Exception as e:
+        print(f"[ERROR] {file_path}: {e}")
+        return False
+
+def process_directory(directory):
+    """Обрабатывает все markdown файлы"""
+    count = 0
+    for root, dirs, files in os.walk(directory):
+        if any(skip in root for skip in ['.git', '_site', 'node_modules', '.github', '__pycache__']):
+            continue
+        
+        for file in files:
+            if file.endswith('.md') and file not in ['README.md', 'DEPLOY.md', 'index.md', 'TROUBLESHOOTING.md']:
+                file_path = Path(root) / file
+                if fix_permalink_in_file(file_path):
+                    count += 1
+    
+    return count
+
+if __name__ == '__main__':
+    print(f"Removing baseurl from permalinks (Jekyll adds it automatically)")
+    print("=" * 50)
+    count = process_directory('.')
+    print("=" * 50)
+    print(f"Done! Fixed {count} files.")
+
