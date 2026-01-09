@@ -29,49 +29,180 @@
                         <li>
                             <strong>Введение</strong>
                             <ul>
-                                <li><a href="{{ '/00_introduction/01_goals_and_objectives.html' | relative_url }}">Цель и задачи</a></li>
-                                <li><a href="{{ '/00_introduction/02_current_state_overview.html' | relative_url }}">Обзор состояния</a></li>
-                                <li><a href="{{ '/00_introduction/03_structure_and_methodology.html' | relative_url }}">Структура</a></li>
+                                <li><a href="{{ '/00_introduction/01_goals_and_objectives.html' | relative_url }}">Цель и задачи книги</a></li>
+                                <li><a href="{{ '/00_introduction/02_current_state_overview.html' | relative_url }}">Обзор современного состояния применения ИИ в геофизике и петрофизике</a></li>
+                                <li><a href="{{ '/00_introduction/03_structure_and_methodology.html' | relative_url }}">Структура и методология изложения</a></li>
                             </ul>
                         </li>
                         <li>
                             <strong>Часть I. Теоретические основы</strong>
                             <ul>
-                                <li><a href="{{ '/01_chapter_01/' | relative_url }}">Глава 1. Основы ИИ</a></li>
-                                <li><a href="{{ '/02_chapter_02/' | relative_url }}">Глава 2. Специфика данных</a></li>
+                                <li>
+                                    <strong>Глава 1. Основы искусственного интеллекта</strong>
+                                    <ul>
+                                        <li><a href="{{ '/01_chapter_01/01_ai_and_ml_concepts.html' | relative_url }}">Понятие искусственного интеллекта и машинного обучения</a></li>
+                                        <li><a href="{{ '/01_chapter_01/02_ml_algorithm_types.html' | relative_url }}">Основные типы алгоритмов машинного обучения (контролируемое, неконтролируемое, обучение с подкреплением)</a></li>
+                                        <li><a href="{{ '/01_chapter_01/03_neural_networks.html' | relative_url }}">Нейронные сети и глубокое обучение</a></li>
+                                        <li><a href="{{ '/01_chapter_01/04_ai_application_features.html' | relative_url }}">Особенности применения ИИ к геологическим данным</a></li>
+                                        <li><a href="{{ '/01_chapter_01/05_advantages_and_limitations.html' | relative_url }}">Преимущества и ограничения ИИ-методов в геологии</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Глава 2. Специфика геологических данных для ИИ</strong>
+                                    <ul>
+                                        <li><a href="{{ '/02_chapter_02/01_geological_data_types.html' | relative_url }}">Типы геологических данных (каротаж, керн, сейсмика, спутниковые данные)</a></li>
+                                        <li><a href="{{ '/02_chapter_02/02_data_quality_issues.html' | relative_url }}">Проблемы качества и неопределенности геологических данных</a></li>
+                                        <li><a href="{{ '/02_chapter_02/03_heterogeneous_data_integration.html' | relative_url }}">Интеграция разнородных данных</a></li>
+                                        <li><a href="{{ '/02_chapter_02/04_preprocessing_and_normalization.html' | relative_url }}">Предобработка и нормализация геологических данных</a></li>
+                                        <li><a href="{{ '/02_chapter_02/05_spatiotemporal_data.html' | relative_url }}">Работа с пространственно-временными данными</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <strong>Часть II. Петрофизические исследования</strong>
                             <ul>
-                                <li><a href="{{ '/03_chapter_03/' | relative_url }}">Глава 3. Интерпретация ГИС</a></li>
-                                <li><a href="{{ '/04_chapter_04/' | relative_url }}">Глава 4. Анализ керна</a></li>
-                                <li><a href="{{ '/05_chapter_05/' | relative_url }}">Глава 5. Моделирование</a></li>
+                                <li>
+                                    <strong>Глава 3. Автоматизированная интерпретация ГИС</strong>
+                                    <ul>
+                                        <li><a href="{{ '/03_chapter_03/01_traditional_well_logging_approaches.html' | relative_url }}">Традиционные подходы к интерпретации ГИС и их ограничения</a></li>
+                                        <li><a href="{{ '/03_chapter_03/02_ml_for_lithological_typing.html' | relative_url }}">Применение машинного обучения для литологической типизации</a></li>
+                                        <li><a href="{{ '/03_chapter_03/03_reservoir_properties_determination.html' | relative_url }}">Автоматическое определение коллекторских свойств пласта</a></li>
+                                        <li><a href="{{ '/03_chapter_03/04_porosity_prediction.html' | relative_url }}">Прогнозирование пористости и проницаемости по данным каротажа</a></li>
+                                        <li><a href="{{ '/03_chapter_03/05_productive_intervals_identification.html' | relative_url }}">Выделение продуктивных интервалов с использованием нейронных сетей</a></li>
+                                        <li><a href="{{ '/03_chapter_03/06_case_study_well_logging.html' | relative_url }}">Кейс-стади: Применение ИИ в интерпретации ГИС на месторождениях России</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Глава 4. Анализ керна с применением ИИ</strong>
+                                    <ul>
+                                        <li><a href="{{ '/04_chapter_04/01_digital_core_analysis.html' | relative_url }}">Цифровой анализ керна: основные подходы</a></li>
+                                        <li><a href="{{ '/04_chapter_04/02_computer_vision_core.html' | relative_url }}">Компьютерное зрение в анализе фотографий керна</a></li>
+                                        <li><a href="{{ '/04_chapter_04/03_lithotype_determination.html' | relative_url }}">Автоматическое определение литотипа по изображениям шлама и керна</a></li>
+                                        <li><a href="{{ '/04_chapter_04/04_core_tomography.html' | relative_url }}">Применение ИИ в томографии керна и цифровом моделировании пород</a></li>
+                                        <li><a href="{{ '/04_chapter_04/05_core_logging_integration.html' | relative_url }}">Интеграция данных керна с каротажными измерениями</a></li>
+                                        <li><a href="{{ '/04_chapter_04/06_fecs_prediction.html' | relative_url }}">Прогнозирование фильтрационно-емкостных свойств по цифровым изображениям</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Глава 5. Петрофизическое моделирование и типизация пород</strong>
+                                    <ul>
+                                        <li><a href="{{ '/05_chapter_05/01_reservoir_rock_classification.html' | relative_url }}">Классификация пород-коллекторов с использованием машинного обучения</a></li>
+                                        <li><a href="{{ '/05_chapter_05/02_electrofacies_and_facies_analysis.html' | relative_url }}">Определение электролипов и фациальный анализ</a></li>
+                                        <li><a href="{{ '/05_chapter_05/03_petrophysical_relationships.html' | relative_url }}">Построение петрофизических зависимостей типа «керн-каротаж»</a></li>
+                                        <li><a href="{{ '/05_chapter_05/04_fluid_saturation.html' | relative_url }}">Применение ИИ в определении насыщенности флюидами</a></li>
+                                        <li><a href="{{ '/05_chapter_05/05_rock_mechanical_properties.html' | relative_url }}">Прогнозирование механических свойств пород</a></li>
+                                        <li><a href="{{ '/05_chapter_05/06_uncertainty_assessment.html' | relative_url }}">Оценка неопределенностей в петрофизических параметрах</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <strong>Часть III. Геологическое моделирование</strong>
                             <ul>
-                                <li><a href="{{ '/06_chapter_06/' | relative_url }}">Глава 6. Сейсморазведка</a></li>
-                                <li><a href="{{ '/07_chapter_07/' | relative_url }}">Глава 7. Картирование</a></li>
-                                <li><a href="{{ '/08_chapter_08/' | relative_url }}">Глава 8. Поиск месторождений</a></li>
+                                <li>
+                                    <strong>Глава 6. Сейсморазведка и ИИ</strong>
+                                    <ul>
+                                        <li><a href="{{ '/06_chapter_06/01_automatic_seismic_interpretation.html' | relative_url }}">Автоматическая интерпретация сейсмических данных</a></li>
+                                        <li><a href="{{ '/06_chapter_06/02_deep_learning_seismograms.html' | relative_url }}">Применение глубокого обучения в обработке сейсмограмм</a></li>
+                                        <li><a href="{{ '/06_chapter_06/03_geological_structures_identification.html' | relative_url }}">Автоматическое выделение геологических структур</a></li>
+                                        <li><a href="{{ '/06_chapter_06/04_deposits_prediction.html' | relative_url }}">Прогнозирование залежей углеводородов по сейсмическим данным</a></li>
+                                        <li><a href="{{ '/06_chapter_06/05_dispersion_reduction.html' | relative_url }}">Снижение численной дисперсии в сейсмическом моделировании</a></li>
+                                        <li><a href="{{ '/06_chapter_06/06_seismic_well_integration.html' | relative_url }}">Интеграция сейсмических и скважинных данных</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Глава 7. Геологическое картирование и дистанционное зондирование</strong>
+                                    <ul>
+                                        <li><a href="{{ '/07_chapter_07/01_geological_maps_automation.html' | relative_url }}">Автоматизация создания геологических карт</a></li>
+                                        <li><a href="{{ '/07_chapter_07/02_satellite_imagery_analysis.html' | relative_url }}">Анализ спутниковых снимков с применением ИИ</a></li>
+                                        <li><a href="{{ '/07_chapter_07/03_rock_spectral_classification.html' | relative_url }}">Классификация типов пород по спектральным характеристикам</a></li>
+                                        <li><a href="{{ '/07_chapter_07/04_anomalies_detection.html' | relative_url }}">Выявление геологических аномалий и структур</a></li>
+                                        <li><a href="{{ '/07_chapter_07/05_landscape_monitoring.html' | relative_url }}">Мониторинг изменений ландшафта</a></li>
+                                        <li><a href="{{ '/07_chapter_07/06_hyperspectral_data.html' | relative_url }}">Применение гиперспектральных данных в геологии</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Глава 8. Поиск и разведка месторождений</strong>
+                                    <ul>
+                                        <li><a href="{{ '/08_chapter_08/01_ai_in_oil_gas_geology.html' | relative_url }}">ИИ в нефтегазовой геологии и поисках залежей</a></li>
+                                        <li><a href="{{ '/08_chapter_08/02_productivity_prediction.html' | relative_url }}">Прогнозирование продуктивности скважин</a></li>
+                                        <li><a href="{{ '/08_chapter_08/03_well_placement_optimization.html' | relative_url }}">Оптимизация размещения разведочных скважин</a></li>
+                                        <li><a href="{{ '/08_chapter_08/04_geochemical_data_analysis.html' | relative_url }}">Анализ геохимических данных с применением машинного обучения</a></li>
+                                        <li><a href="{{ '/08_chapter_08/05_3d_geological_models.html' | relative_url }}">Построение 3D геологических моделей месторождений</a></li>
+                                        <li><a href="{{ '/08_chapter_08/06_prospectivity_assessment.html' | relative_url }}">Оценка перспективности нефтегазоносных районов</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li>
-                            <strong>Часть IV. Инструменты</strong>
+                            <strong>Часть IV. Инструменты и технологии</strong>
                             <ul>
-                                <li><a href="{{ '/09_chapter_09/' | relative_url }}">Глава 9. Программные решения</a></li>
-                                <li><a href="{{ '/10_chapter_10/' | relative_url }}">Глава 10. Big Data</a></li>
+                                <li>
+                                    <strong>Глава 9. Программные решения и платформы</strong>
+                                    <ul>
+                                        <li><a href="{{ '/09_chapter_09/01_software_packages_overview.html' | relative_url }}">Обзор специализированных программных пакетов для ИИ в геологии</a></li>
+                                        <li><a href="{{ '/09_chapter_09/02_python_and_libraries.html' | relative_url }}">Python и библиотеки для геологических исследований (scikit-learn, TensorFlow, PyTorch)</a></li>
+                                        <li><a href="{{ '/09_chapter_09/03_cloud_computing.html' | relative_url }}">Облачные вычисления в геологии</a></li>
+                                        <li><a href="{{ '/09_chapter_09/04_gis_cad_integration.html' | relative_url }}">Интеграция с традиционными геологическими ГИС и САПР</a></li>
+                                        <li><a href="{{ '/09_chapter_09/05_algorithm_development.html' | relative_url }}">Разработка собственных алгоритмов и workflow</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Глава 10. Обработка больших данных в геологии</strong>
+                                    <ul>
+                                        <li><a href="{{ '/10_chapter_10/01_big_data_specifics.html' | relative_url }}">Специфика Big Data в геофизике и петрофизике</a></li>
+                                        <li><a href="{{ '/10_chapter_10/02_data_storage_and_management.html' | relative_url }}">Хранение и управление геологическими данными</a></li>
+                                        <li><a href="{{ '/10_chapter_10/03_parallel_computing.html' | relative_url }}">Параллельные вычисления и распределенная обработка</a></li>
+                                        <li><a href="{{ '/10_chapter_10/04_streaming_analysis.html' | relative_url }}">Технологии потокового анализа данных</a></li>
+                                        <li><a href="{{ '/10_chapter_10/05_performance_optimization.html' | relative_url }}">Оптимизация производительности алгоритмов ИИ</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li>
-                            <strong>Часть V. Практика</strong>
+                            <strong>Часть V. Практическое применение</strong>
                             <ul>
-                                <li><a href="{{ '/11_chapter_11/' | relative_url }}">Глава 11. Кейсы</a></li>
-                                <li><a href="{{ '/12_chapter_12/' | relative_url }}">Глава 12. Эффективность</a></li>
+                                <li>
+                                    <strong>Глава 11. Кейсы применения ИИ в нефтегазовой отрасли</strong>
+                                    <ul>
+                                        <li><a href="{{ '/11_chapter_11/01_process_digitalization.html' | relative_url }}">Цифровизация процессов интерпретации на крупных месторождениях</a></li>
+                                        <li><a href="{{ '/11_chapter_11/02_automation_west_siberia.html' | relative_url }}">Автоматизация геофизических исследований в Западной Сибири</a></li>
+                                        <li><a href="{{ '/11_chapter_11/03_ai_in_carbonate_reservoirs.html' | relative_url }}">Применение ИИ в карбонатных коллекторах</a></li>
+                                        <li><a href="{{ '/11_chapter_11/04_missed_deposits_search.html' | relative_url }}">Поиск пропущенных залежей с использованием машинного обучения</a></li>
+                                        <li><a href="{{ '/11_chapter_11/05_appraisal_optimization.html' | relative_url }}">Оптимизация доразведки месторождений</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Глава 12. Результаты и эффективность применения ИИ</strong>
+                                    <ul>
+                                        <li><a href="{{ '/12_chapter_12/01_quality_metrics.html' | relative_url }}">Метрики оценки качества ИИ-алгоритмов в геологии</a></li>
+                                        <li><a href="{{ '/12_chapter_12/02_traditional_methods_comparison.html' | relative_url }}">Сравнение с традиционными методами</a></li>
+                                        <li><a href="{{ '/12_chapter_12/03_economic_efficiency.html' | relative_url }}">Экономическая эффективность внедрения ИИ</a></li>
+                                        <li><a href="{{ '/12_chapter_12/04_risk_analysis.html' | relative_url }}">Анализ рисков и неопределенностей</a></li>
+                                        <li><a href="{{ '/12_chapter_12/05_time_advantages.html' | relative_url }}">Временные и трудозатратные преимущества</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Заключение</strong>
+                                    <ul>
+                                        <li><a href="{{ '/13_conclusion/01_main_achievements.html' | relative_url }}">Основные достижения применения ИИ в петрофизике и геологии</a></li>
+                                        <li><a href="{{ '/13_conclusion/02_implementation_recommendations.html' | relative_url }}">Рекомендации по внедрению ИИ-технологий</a></li>
+                                        <li><a href="{{ '/13_conclusion/03_research_directions.html' | relative_url }}">Направления дальнейших исследований</a></li>
+                                        <li><a href="{{ '/13_conclusion/04_development_forecast.html' | relative_url }}">Прогноз развития отрасли</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
-                        <li><a href="{{ '/13_conclusion/' | relative_url }}">Заключение</a></li>
+                        <li>
+                            <strong>Заключение</strong>
+                            <ul>
+                                <li><a href="{{ '/13_conclusion/01_main_achievements.html' | relative_url }}">Основные достижения применения ИИ в петрофизике и геологии</a></li>
+                                <li><a href="{{ '/13_conclusion/02_implementation_recommendations.html' | relative_url }}">Рекомендации по внедрению ИИ-технологий</a></li>
+                                <li><a href="{{ '/13_conclusion/03_research_directions.html' | relative_url }}">Направления дальнейших исследований</a></li>
+                                <li><a href="{{ '/13_conclusion/04_development_forecast.html' | relative_url }}">Прогноз развития отрасли</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </aside>

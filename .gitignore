@@ -55,3 +55,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+.obsidian/*
+combined_book.pdf
+.obsidian/app.json
+combined_book.md
+build_pdf.py

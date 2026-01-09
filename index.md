@@ -9,12 +9,12 @@ permalink: /
 ## Введение
 
 - [Цель и задачи книги]({{ '/00_introduction/01_goals_and_objectives.html' | relative_url }})
-- [Обзор современного состояния применения ИИ в геонауках]({{ '/00_introduction/02_current_state_overview.html' | relative_url }})
+- [Обзор современного состояния применения ИИ в геофизике и петрофизике]({{ '/00_introduction/02_current_state_overview.html' | relative_url }})
 - [Структура и методология изложения]({{ '/00_introduction/03_structure_and_methodology.html' | relative_url }})
 
 ## Часть I. Теоретические основы применения ИИ в геологии
 
-### Глава 1. Основы искусственного интеллекта в геонауках
+### Глава 1. Основы искусственного интеллекта в геофизике и петрофизике
 
 - [1.1. Понятие искусственного интеллекта и машинного обучения]({{ '/01_chapter_01/01_ai_and_ml_concepts.html' | relative_url }})
 - [1.2. Основные типы алгоритмов машинного обучения]({{ '/01_chapter_01/02_ml_algorithm_types.html' | relative_url }})
@@ -106,7 +106,7 @@ permalink: /
 
 ### Глава 10. Обработка больших данных в геологии
 
-- [10.1. Специфика Big Data в геонауках]({{ '/10_chapter_10/01_big_data_specifics.html' | relative_url }})
+- [10.1. Специфика Big Data в геофизике и петрофизике]({{ '/10_chapter_10/01_big_data_specifics.html' | relative_url }})
 - [10.2. Хранение и управление геологическими данными]({{ '/10_chapter_10/02_data_storage_and_management.html' | relative_url }})
 - [10.3. Параллельные вычисления и распределенная обработка]({{ '/10_chapter_10/03_parallel_computing.html' | relative_url }})
 - [10.4. Технологии потокового анализа данных]({{ '/10_chapter_10/04_streaming_analysis.html' | relative_url }})

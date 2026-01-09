@@ -11,10 +11,14 @@
             "id": "52fd7c1798dbde65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "combined_book.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "combined_book"
             }
           }
         ]
@@ -150,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "combined_book.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of combined_book"
             }
           }
         ],
@@ -178,6 +183,13 @@
   },
   "active": "52fd7c1798dbde65",
   "lastOpenFiles": [
+    "NAVIGATION_UPDATE.md",
+    "update_navigation.py",
+    "CONSISTENCY_REPORT.md",
+    "add_cross_references.py",
+    "fix_terminology.py",
+    "check_consistency.py",
+    "combined_book.pdf",
     "GITHUB_PAGES_FIX.md",
     "fix_permalinks_remove_baseurl.py",
     "fix_permalinks.py",
@@ -205,14 +217,7 @@
     "10_chapter_10/01_big_data_specifics.md",
     "09_chapter_09/05_algorithm_development.md",
     "09_chapter_09/04_gis_cad_integration.md",
-    "09_chapter_09/03_cloud_computing.md",
-    "09_chapter_09/02_python_and_libraries.md",
     "rename_to_english.py",
-    "add_front_matter.py",
-    "Gemfile",
-    "index.html",
-    "assets/css/style.css",
-    "assets/css",
-    "assets"
+    "add_front_matter.py"
   ]
 }
