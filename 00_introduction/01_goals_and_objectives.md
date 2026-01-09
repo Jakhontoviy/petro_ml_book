@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Цель и задачи книги
+permalink: /00_introduction/01_goals_and_objectives.html
 ---
 
 # Цель и задачи книги

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Обзор современного состояния применения ИИ в геонауках
+permalink: /00_introduction/02_current_state_overview.html
 ---
-
 # Обзор современного состояния применения ИИ в геонауках
 
 ## Введение

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Структура и методология изложения
+permalink: /00_introduction/03_structure_and_methodology.html
 ---
-
 # Структура и методология изложения
 
 ## Общая структура книги

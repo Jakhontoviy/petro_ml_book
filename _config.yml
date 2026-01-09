@@ -8,7 +8,8 @@ baseurl: "" # для подпапок, оставить пустым для ко
 # Настройки Jekyll
 markdown: kramdown
 highlighter: rouge
-theme: minima
+# Убираем тему minima, используем свой layout
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -35,6 +36,92 @@ exclude:
   - .git
   - .gitignore
   - README.md
+  - DEPLOY.md
+  - add_front_matter.py
+  - rename_to_english.py
+  - add_permalinks.py
+  - index.md
+
+# Включаем все markdown файлы
+include:
+  - 00_introduction
+  - 01_chapter_01
+  - 02_chapter_02
+  - 03_chapter_03
+  - 04_chapter_04
+  - 05_chapter_05
+  - 06_chapter_06
+  - 07_chapter_07
+  - 08_chapter_08
+  - 09_chapter_09
+  - 10_chapter_10
+  - 11_chapter_11
+  - 12_chapter_12
+  - 13_conclusion
+
+# Настройки permalinks для правильной генерации URL
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "00_introduction"
+    values:
+      layout: "default"
+  - scope:
+      path: "01_chapter_01"
+    values:
+      layout: "default"
+  - scope:
+      path: "02_chapter_02"
+    values:
+      layout: "default"
+  - scope:
+      path: "03_chapter_03"
+    values:
+      layout: "default"
+  - scope:
+      path: "04_chapter_04"
+    values:
+      layout: "default"
+  - scope:
+      path: "05_chapter_05"
+    values:
+      layout: "default"
+  - scope:
+      path: "06_chapter_06"
+    values:
+      layout: "default"
+  - scope:
+      path: "07_chapter_07"
+    values:
+      layout: "default"
+  - scope:
+      path: "08_chapter_08"
+    values:
+      layout: "default"
+  - scope:
+      path: "09_chapter_09"
+    values:
+      layout: "default"
+  - scope:
+      path: "10_chapter_10"
+    values:
+      layout: "default"
+  - scope:
+      path: "11_chapter_11"
+    values:
+      layout: "default"
+  - scope:
+      path: "12_chapter_12"
+    values:
+      layout: "default"
+  - scope:
+      path: "13_conclusion"
+    values:
+      layout: "default"
 
 # Навигация
 navigation:

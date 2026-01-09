@@ -178,6 +178,8 @@
   },
   "active": "52fd7c1798dbde65",
   "lastOpenFiles": [
+    "TROUBLESHOOTING.md",
+    "add_permalinks.py",
     "00_introduction/03_структура_и_методология.md",
     "13_conclusion/04_development_forecast.md",
     "13_conclusion/03_research_directions.md",
@@ -203,7 +205,6 @@
     "09_chapter_09/03_cloud_computing.md",
     "09_chapter_09/02_python_and_libraries.md",
     "09_chapter_09/01_software_packages_overview.md",
-    "08_chapter_08/06_prospectivity_assessment.md",
     "rename_to_english.py",
     "add_front_matter.py",
     "Gemfile",
@@ -212,7 +213,6 @@
     "assets/css",
     "assets",
     "_layouts/default.html",
-    "_layouts",
-    "_config.yml"
+    "_layouts"
   ]
 }
