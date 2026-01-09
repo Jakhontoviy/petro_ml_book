@@ -42,9 +42,9 @@ navigation:
     url: /00_introduction/
     children:
       - title: Цель и задачи книги
-        url: /00_introduction/01_цель_и_задачи_книги.html
+        url: /00_introduction/01_goals_and_objectives.html
       - title: Обзор современного состояния
-        url: /00_introduction/02_обзор_современного_состояния.html
+        url: /00_introduction/02_current_state_overview.html
       - title: Структура и методология
-        url: /00_introduction/03_структура_и_методология.html
+        url: /00_introduction/03_structure_and_methodology.html
 

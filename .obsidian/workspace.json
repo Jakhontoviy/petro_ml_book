@@ -11,14 +11,10 @@
             "id": "52fd7c1798dbde65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_introduction/03_структура_и_методология.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03_структура_и_методология"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_introduction/03_структура_и_методология.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 03_структура_и_методология"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_introduction/03_структура_и_методология.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 03_структура_и_методология"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_introduction/03_структура_и_методология.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03_структура_и_методология"
+              "title": "Outline"
             }
           }
         ],
@@ -185,11 +178,34 @@
   },
   "active": "52fd7c1798dbde65",
   "lastOpenFiles": [
-    "DEPLOY.md",
-    "00_introduction/02_обзор_современного_состояния.md",
+    "00_introduction/03_структура_и_методология.md",
+    "13_conclusion/04_development_forecast.md",
+    "13_conclusion/03_research_directions.md",
+    "13_conclusion/02_implementation_recommendations.md",
+    "13_conclusion/01_main_achievements.md",
+    "12_chapter_12/05_time_advantages.md",
+    "12_chapter_12/04_risk_analysis.md",
+    "12_chapter_12/03_economic_efficiency.md",
+    "12_chapter_12/02_traditional_methods_comparison.md",
+    "12_chapter_12/01_quality_metrics.md",
+    "11_chapter_11/05_appraisal_optimization.md",
+    "11_chapter_11/04_missed_deposits_search.md",
+    "11_chapter_11/03_ai_in_carbonate_reservoirs.md",
+    "11_chapter_11/02_automation_west_siberia.md",
+    "11_chapter_11/01_process_digitalization.md",
+    "10_chapter_10/05_performance_optimization.md",
+    "10_chapter_10/04_streaming_analysis.md",
+    "10_chapter_10/03_parallel_computing.md",
+    "10_chapter_10/02_data_storage_and_management.md",
+    "10_chapter_10/01_big_data_specifics.md",
+    "09_chapter_09/05_algorithm_development.md",
+    "09_chapter_09/04_gis_cad_integration.md",
+    "09_chapter_09/03_cloud_computing.md",
+    "09_chapter_09/02_python_and_libraries.md",
+    "09_chapter_09/01_software_packages_overview.md",
+    "08_chapter_08/06_prospectivity_assessment.md",
+    "rename_to_english.py",
     "add_front_matter.py",
-    "00_introduction/01_цель_и_задачи_книги.md",
-    "index.md",
     "Gemfile",
     "index.html",
     "assets/css/style.css",
@@ -197,29 +213,6 @@
     "assets",
     "_layouts/default.html",
     "_layouts",
-    "_config.yml",
-    "13_conclusion/04_прогноз_развития.md",
-    "13_conclusion/03_направления_исследований.md",
-    "13_conclusion/02_рекомендации_по_внедрению.md",
-    "13_conclusion/01_основные_достижения.md",
-    "12_chapter_12/05_временные_преимущества.md",
-    "12_chapter_12/04_анализ_рисков.md",
-    "12_chapter_12/03_экономическая_эффективность.md",
-    "12_chapter_12/02_сравнение_с_традиционными_методами.md",
-    "12_chapter_12/01_метрики_оценки_качества.md",
-    "11_chapter_11/05_оптимизация_доразведки.md",
-    "11_chapter_11/04_поиск_пропущенных_залежей.md",
-    "11_chapter_11/03_ии_в_карбонатных_коллекторах.md",
-    "11_chapter_11/02_автоматизация_западная_сибирь.md",
-    "11_chapter_11/01_цифровизация_процессов.md",
-    "10_chapter_10/05_оптимизация_производительности.md",
-    "10_chapter_10/04_потоковый_анализ.md",
-    "10_chapter_10/03_параллельные_вычисления.md",
-    "10_chapter_10/02_хранение_и_управление_данными.md",
-    "10_chapter_10/01_специфика_big_data.md",
-    "09_chapter_09/05_разработка_алгоритмов.md",
-    "09_chapter_09/04_интеграция_с_гис_сапр.md",
-    "09_chapter_09/03_облачные_вычисления.md",
-    "13_conclusion"
+    "_config.yml"
   ]
 }
