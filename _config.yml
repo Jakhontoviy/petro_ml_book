@@ -22,6 +22,8 @@ kramdown:
   input: GFM
   hard_wrap: false
   syntax_highlighter: rouge
+  parse_block_html: true
+  parse_span_html: true
 
 # Настройки для сборки
 sass:
@@ -40,7 +42,8 @@ exclude:
   - add_front_matter.py
   - rename_to_english.py
   - add_permalinks.py
-  - index.md
+  - fix_permalinks.py
+  - fix_permalinks_remove_baseurl.py
 
 # Включаем все markdown файлы
 include:
