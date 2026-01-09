@@ -6,7 +6,7 @@
 
 1. Перейдите на https://github.com
 2. Нажмите "New repository"
-3. Назовите репозиторий (например, `petro-ml-book`)
+3. Назовите репозиторий (например, `petro_ml_book`)
 4. Сделайте репозиторий **публичным** (для бесплатного GitHub Pages)
 5. **НЕ** добавляйте README, .gitignore или лицензию (они уже есть в проекте)
 
@@ -25,7 +25,7 @@ git add .
 git commit -m "Initial commit: книга о машинном обучении в геофизике"
 
 # Добавьте remote (замените YOUR_USERNAME на ваш GitHub username)
-git remote add origin https://github.com/YOUR_USERNAME/petro-ml-book.git
+git remote add origin https://github.com/YOUR_USERNAME/petro_ml_book.git
 
 # Загрузите код
 git push -u origin main
@@ -69,7 +69,7 @@ GitHub начнет сборку сайта. Обычно это занимае�
 После успешной публикации ваш сайт будет доступен по адресу:
 
 ```
-https://YOUR_USERNAME.github.io/petro-ml-book/
+https://YOUR_USERNAME.github.io/petro_ml_book/
 ```
 
 Замените `YOUR_USERNAME` на ваш GitHub username.

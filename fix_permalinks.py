@@ -6,7 +6,7 @@ import os
 import re
 from pathlib import Path
 
-BASEURL = "/petro-ml-book"
+BASEURL = "/petro_ml_book"
 
 def update_permalink_in_file(file_path):
     """Обновляет permalink в файле с учетом baseurl"""

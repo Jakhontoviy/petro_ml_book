@@ -2,7 +2,7 @@
 
 ## Что было исправлено:
 
-1. ✅ Добавлен правильный `baseurl: "/petro-ml-book"` в `_config.yml`
+1. ✅ Добавлен правильный `baseurl: "/petro_ml_book"` в `_config.yml`
 2. ✅ Обновлены все permalinks (убраны baseurl, так как Jekyll добавляет его автоматически)
 3. ✅ Настроены defaults для всех папок
 4. ✅ Добавлены include директории
@@ -35,7 +35,7 @@ git push
 
 После успешной сборки страница должна быть доступна по адресу:
 ```
-https://jakhontoviy.github.io/petro-ml-book/00_introduction/01_goals_and_objectives.html
+https://jakhontoviy.github.io/petro_ml_book/00_introduction/01_goals_and_objectives.html
 ```
 
 ## Если страница все еще не работает:
@@ -55,10 +55,10 @@ https://jakhontoviy.github.io/petro-ml-book/00_introduction/01_goals_and_objecti
 
 ```bash
 bundle install
-bundle exec jekyll serve --baseurl /petro-ml-book
+bundle exec jekyll serve --baseurl /petro_ml_book
 ```
 
-Откройте http://localhost:4000/petro-ml-book/00_introduction/01_goals_and_objectives.html
+Откройте http://localhost:4000/petro_ml_book/00_introduction/01_goals_and_objectives.html
 
 ### Вариант 3: Альтернативное решение - использовать _pages
 
@@ -87,7 +87,7 @@ permalink: /00_introduction/01_goals_and_objectives.html
 
 ## Важные замечания:
 
-- **baseurl** в `_config.yml` должен быть `/petro-ml-book` (с ведущим слэшем)
+- **baseurl** в `_config.yml` должен быть `/petro_ml_book` (с ведущим слэшем)
 - **permalinks** в файлах НЕ должны содержать baseurl (Jekyll добавляет его автоматически)
 - Все ссылки должны использовать фильтр `relative_url` для правильной работы с baseurl
 

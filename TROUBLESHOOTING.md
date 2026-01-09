@@ -65,9 +65,9 @@ bundle exec jekyll serve
 https://ваш-username.github.io/репозиторий/00_introduction/01_goals_and_objectives.html
 ```
 
-Если репозиторий называется `petro-ml-book`, то:
+Если репозиторий называется `petro_ml_book`, то:
 ```
-https://ваш-username.github.io/petro-ml-book/00_introduction/01_goals_and_objectives.html
+https://ваш-username.github.io/petro_ml_book/00_introduction/01_goals_and_objectives.html
 ```
 
 ## Частые ошибки

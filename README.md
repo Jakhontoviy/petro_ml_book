@@ -19,7 +19,7 @@
 #### 1. Создайте репозиторий на GitHub
 
 1. Перейдите на [GitHub](https://github.com)
-2. Создайте новый репозиторий (например, `petro-ml-book`)
+2. Создайте новый репозиторий (например, `petro_ml_book`)
 3. **Важно**: Репозиторий должен быть публичным для бесплатного GitHub Pages
 
 #### 2. Добавьте front matter к markdown файлам
@@ -53,7 +53,7 @@ git add .
 git commit -m "Initial commit: книга о машинном обучении в геофизике"
 
 # Добавьте remote репозиторий (замените на ваш URL)
-git remote add origin https://github.com/ваш-username/petro-ml-book.git
+git remote add origin https://github.com/ваш-username/petro_ml_book.git
 
 # Загрузите код
 git push -u origin main
@@ -73,7 +73,7 @@ GitHub автоматически начнет сборку сайта. Обыч
 
 После публикации ваш сайт будет доступен по адресу:
 ```
-https://ваш-username.github.io/petro-ml-book/
+https://ваш-username.github.io/petro_ml_book/
 ```
 
 ### Локальное тестирование (опционально)
